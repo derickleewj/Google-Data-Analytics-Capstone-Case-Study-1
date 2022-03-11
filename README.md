@@ -23,7 +23,7 @@ linkcode
 • Data source: <a href = "https://divvy-tripdata.s3.amazonaws.com/index.html">Link </a> <br>
 • Extracted data: Jan 2021 to Apr 2021 (4 months) made available by Motivate International Inc. under this license. Data extracted was shortened to only 4 months as files for the rest of 2021 were too large and caused R Studio Cloud to crash constantly.
 
-#### Limitations:
+#### Limitations
 
 Due to data-privacy issues, the data provided prohibit users from using riders’ personally identifiable information. The data won’t be able to identify pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes.
 It is also good to keep in mind that the trend analyzed is only for the first 4 months of 2021 and not the general year to provide a gauge of usage trends among users.
