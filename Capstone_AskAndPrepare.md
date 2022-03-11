@@ -28,4 +28,30 @@ linkcode
 Due to data-privacy issues, the data provided prohibit users from using riders’ personally identifiable information. The data won’t be able to identify pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes.
 It is also good to keep in mind that the trend analyzed is only for the first 4 months of 2021 and not the general year to provide a gauge of usage trends among users.
 
-For this case study, <b>R</b> will be used for analysis and to generate data viz accordingly.
+For this case study, <b><i>R</i></b> will be used for analysis and to generate data viz accordingly. (The R file has also been uploaded into this folder for referencing purposes.)
+
+---
+
+```
+## Step 1: Installing required packages
+install.packages("tidyverse")
+install.packages("lubridate")
+install.packages("ggplot2")
+
+library(tidyverse)
+library(lubridate)
+library(ggplot2)
+```
+
+```
+## Step 2: Importing .csv data files into R with read_csv()
+## Files will be renamed with format: mth_YYYY
+
+jan_2021 <- read.csv("202101-divvy-tripdata.csv")
+feb_2021 <- read.csv("202102-divvy-tripdata.csv")
+mar_2021 <- read.csv("202103-divvy-tripdata.csv")
+apr_2021 <- read.csv("202104-divvy-tripdata.csv")
+```
+
+
+
