@@ -21,7 +21,7 @@ linkcode
 ### PREPARE
 
 • Data source: <a href = "https://divvy-tripdata.s3.amazonaws.com/index.html">Link </a> <br>
-• Extracted data: Jan 2021 to Apr 2021 (4 months) made available by Motivate International Inc. under this license. Data extracted was shortened to only 4 months as files for the rest of 2021 were too large and caused R Studio Cloud to crash constantly.
+• Extracted data: Jan 2021 to Apr 2021 (4 months) made available by Motivate International Inc. under this <a href="https://ride.divvybikes.com/data-license-agreement">license</a>. Data extracted was shortened to only 4 months as files for the rest of 2021 were too large and caused R Studio Cloud to crash constantly.
 
 #### Limitations
 
